@@ -14,7 +14,6 @@ const Demo = () => {
     const onSubmit = async event => {
         event.preventDefault();
         const formData = new FormData();
-        formData.append('title', 'some title');
         formData.append('file', file);
 
 
